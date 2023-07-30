@@ -1,0 +1,72 @@
+{
+  "uuid": "7d7506df-248f-4f65-b21a-0869f9f2db8c-tr-0-1011",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyEditEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyEditEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyEditEmployeeSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class=\"oxd-table-cell-actions\"]//button//i[@class=\"oxd-icon bi-pencil-fill\"]\"}\n  (Session info: chrome=113.0.5672.126)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at Framework_AutomationTest.Pages.BasePage.WaitForElementToBeClickable(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 39\n   at Framework_AutomationTest.Pages.BasePage.ClickOnElement(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 26\n   at FrameWork_ThanhLM10.Pages.PIMPage.ClickEditButton() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/PIMPage.cs:line 75\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 60\n--NoSuchElementException\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyEditEmployeeSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class=\"oxd-table-cell-actions\"]//button//i[@class=\"oxd-icon bi-pencil-fill\"]\"}\n  (Session info: chrome=113.0.5672.126)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at Framework_AutomationTest.Pages.BasePage.WaitForElementToBeClickable(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 39\n   at Framework_AutomationTest.Pages.BasePage.ClickOnElement(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 26\n   at FrameWork_ThanhLM10.Pages.PIMPage.ClickEditButton() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/PIMPage.cs:line 75\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 60\n--NoSuchElementException\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass6_0.<ElementToBeClickable>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133296739207468510",
+          "source": "c388f77d875d49a1b5fb4c16f7899a67-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "8d84e5eae67444b5906531ac375e30ea-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685200295123,
+      "stop": 1685200324091
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685200295123,
+  "stop": 1685200324097
+}

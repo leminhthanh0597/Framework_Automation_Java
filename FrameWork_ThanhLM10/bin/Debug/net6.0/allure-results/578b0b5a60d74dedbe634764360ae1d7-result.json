@@ -1,0 +1,64 @@
+{
+  "uuid": "4f28e922-4924-4f56-bc45-60f0f996a605-tr-0-1011",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyEditEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyEditEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyEditEmployeeSuccessfully",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyEditEmployeeSuccessfully"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyEditEmployeeSuccessfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "eb8c79576c78403cbc9f81f4573d5a7b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685200426341,
+      "stop": 1685200455292
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685200426340,
+  "stop": 1685200455295
+}

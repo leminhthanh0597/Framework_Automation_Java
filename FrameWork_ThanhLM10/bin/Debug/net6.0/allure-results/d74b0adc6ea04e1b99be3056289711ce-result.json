@@ -1,0 +1,72 @@
+{
+  "uuid": "0e956afc-a5be-4ad3-9195-5cad76031205-tr-0-1009",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyDeleteEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyDeleteEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyDeleteEmployeeSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Collections.Generic.KeyNotFoundException : The given key 'FirstName' was not present in the dictionary.",
+    "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyDeleteEmployee.cs:line 49"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyDeleteEmployeeSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Collections.Generic.KeyNotFoundException : The given key 'FirstName' was not present in the dictionary.",
+        "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyDeleteEmployee.cs:line 49"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133296734848862000",
+          "source": "7a8be17eaf654cfb8dde306ea9dd4e34-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "d709656a4510414f921eb5548b9693ce-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685199871871,
+      "stop": 1685199888229
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685199871871,
+  "stop": 1685199888232
+}

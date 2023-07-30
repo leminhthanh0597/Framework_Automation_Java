@@ -1,0 +1,15 @@
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/selenium-manager/macos/selenium-manager
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/AutomationCore.deps.json
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/AutomationCore.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/bin/Debug/net6.0/AutomationCore.pdb
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.csproj.AssemblyReference.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.AssemblyInfoInputs.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.AssemblyInfo.cs
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.csproj.CoreCompileInputs.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/refint/AutomationCore.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/AutomationCore.pdb
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/obj/Debug/net6.0/ref/AutomationCore.dll

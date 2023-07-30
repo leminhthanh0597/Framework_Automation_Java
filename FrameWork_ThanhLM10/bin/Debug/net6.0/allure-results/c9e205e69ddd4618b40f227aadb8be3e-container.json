@@ -1,0 +1,76 @@
+{
+  "uuid": "e3f2e356-b35d-47d1-9c8a-414b681ab96e-tc-0-1006",
+  "name": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "children": [
+    "8b2287bc-0a1b-4299-b231-49a4e00e969c-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "OnTimeSetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685265506666,
+      "stop": 1685265506666
+    },
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685265506666,
+      "stop": 1685265506666
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685265506666,
+      "stop": 1685265506666
+    },
+    {
+      "name": "OnTimeTearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685265506666,
+      "stop": 1685265506666
+    }
+  ],
+  "links": [],
+  "start": 1685265478434,
+  "stop": 1685265506689
+}

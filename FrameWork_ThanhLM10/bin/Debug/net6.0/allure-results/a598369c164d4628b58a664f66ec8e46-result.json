@@ -1,0 +1,72 @@
+{
+  "uuid": "399f3784-196e-4b83-ba15-4d7f8209e850-tr-0-1007",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyEditEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyEditEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyEditEmployeeSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input class=\"oxd-input oxd-input--active orangehrm-lastname\" name=\"lastName\" placeholder=\"Last Name\" data-v-1f99f73c=\"\"> is not clickable at point (1222, 270). Other element would receive the click: <div class=\"oxd-form-loader\" data-v-d5bfe35b=\"\">...</div>\n  (Session info: chrome=113.0.5672.126)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at Framework_AutomationTest.Pages.BasePage.ClickOnElement(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 25\n   at FrameWork_ThanhLM10.Pages.EditPage.EnableLastNameEditing() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/EditPage.cs:line 25\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 63"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyEditEmployeeSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <input class=\"oxd-input oxd-input--active orangehrm-lastname\" name=\"lastName\" placeholder=\"Last Name\" data-v-1f99f73c=\"\"> is not clickable at point (1222, 270). Other element would receive the click: <div class=\"oxd-form-loader\" data-v-d5bfe35b=\"\">...</div>\n  (Session info: chrome=113.0.5672.126)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at Framework_AutomationTest.Pages.BasePage.ClickOnElement(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 25\n   at FrameWork_ThanhLM10.Pages.EditPage.EnableLastNameEditing() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/EditPage.cs:line 25\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 63"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133297559141440520",
+          "source": "73e37416856242f2a44614454a35682b-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "b1fa8426754745bdb15ffe79f929cb1b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685282294543,
+      "stop": 1685282317486
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685282294542,
+  "stop": 1685282317488
+}

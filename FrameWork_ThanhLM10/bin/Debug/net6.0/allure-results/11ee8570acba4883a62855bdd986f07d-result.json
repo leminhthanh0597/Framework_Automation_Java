@@ -1,0 +1,72 @@
+{
+  "uuid": "65a6b63f-0c00-4cf6-a7e3-7167649fbc73-tr-0-1007",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyEditEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyEditEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyEditEmployeeSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name=\"lastName\"]\"}\n  (Session info: chrome=113.0.5672.126)",
+    "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at Framework_AutomationTest.Pages.BasePage.WaitForElementToBeVisible(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 33\n   at FrameWork_ThanhLM10.Pages.EditPage.EnableLastNameEditing() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/EditPage.cs:line 24\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 63\n--NoSuchElementException\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyEditEmployeeSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Timed out after 10 seconds\n  ----> OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name=\"lastName\"]\"}\n  (Session info: chrome=113.0.5672.126)",
+        "trace": "   at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\n   at Framework_AutomationTest.Pages.BasePage.WaitForElementToBeVisible(By locator) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/BasePage.cs:line 33\n   at FrameWork_ThanhLM10.Pages.EditPage.EnableLastNameEditing() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Pages/EditPage.cs:line 24\n   at FrameWork_ThanhLM10.Tests.VerifyEditEmployee.VerifyEditEmployeeSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyEditEmployee.cs:line 63\n--NoSuchElementException\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\n   at SeleniumExtras.WaitHelpers.ExpectedConditions.<>c__DisplayClass3_0.<ElementIsVisible>b__0(IWebDriver driver)\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133298048246881220",
+          "source": "095bcb502f5a4a98b8961438b8455662-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "656ed3711dfc428c8dd6b357e09a3d64-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685331201085,
+      "stop": 1685331228030
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685331201084,
+  "stop": 1685331228033
+}

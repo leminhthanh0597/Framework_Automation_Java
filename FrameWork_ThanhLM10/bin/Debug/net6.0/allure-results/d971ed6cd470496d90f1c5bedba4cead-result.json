@@ -1,0 +1,72 @@
+{
+  "uuid": "a91f4232-f1f1-41a4-9cef-688adcaa4c1e-tr-0-1014",
+  "historyId": "MockProject_ThanhLM10.Tests.VerifyAddAdmin.VerifyAddAdminSuccessfully",
+  "fullName": "MockProject_ThanhLM10.Tests.VerifyAddAdmin.VerifyAddAdminSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "MockProject_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyAddAdminSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyAddAdmin"
+    }
+  ],
+  "links": [],
+  "name": "VerifyAddAdminSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Collections.Generic.KeyNotFoundException : The given key 'EmployeeName' was not present in the dictionary.",
+    "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at MockProject_ThanhLM10.Tests.VerifyAddAdmin.VerifyAddAdminSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyAddAdmin.cs:line 48"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyAddAdminSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Collections.Generic.KeyNotFoundException : The given key 'EmployeeName' was not present in the dictionary.",
+        "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at MockProject_ThanhLM10.Tests.VerifyAddAdmin.VerifyAddAdminSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyAddAdmin.cs:line 48"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133297369076701800",
+          "source": "04059da1984b4e58b445fccbb0f1e261-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "844f8084469b45e7992da8908f53b1ed-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685263294040,
+      "stop": 1685263311017
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685263294040,
+  "stop": 1685263311023
+}

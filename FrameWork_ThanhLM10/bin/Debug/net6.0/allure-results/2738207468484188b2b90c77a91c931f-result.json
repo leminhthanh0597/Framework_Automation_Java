@@ -1,0 +1,64 @@
+{
+  "uuid": "dc768faf-3000-42de-902f-d61acaf71c80-tr-0-1005",
+  "historyId": "FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Tests.VerifyDeleteEmployee.VerifyDeleteEmployeeSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyDeleteEmployeeSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyDeleteEmployee"
+    }
+  ],
+  "links": [],
+  "name": "VerifyDeleteEmployeeSuccessfully",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyDeleteEmployeeSuccessfully"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyDeleteEmployeeSuccessfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "319564dd9071410591703e68cafe1135-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685265088123,
+      "stop": 1685265110645
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685265088122,
+  "stop": 1685265110649
+}

@@ -1,0 +1,15 @@
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/selenium-manager/linux/selenium-manager
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/selenium-manager/macos/selenium-manager
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/selenium-manager/windows/selenium-manager.exe
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/AutomationWebDriver.deps.json
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/AutomationWebDriver.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/bin/Debug/net6.0/AutomationWebDriver.pdb
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.csproj.AssemblyReference.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.GeneratedMSBuildEditorConfig.editorconfig
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.AssemblyInfoInputs.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.AssemblyInfo.cs
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.csproj.CoreCompileInputs.cache
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/refint/AutomationWebDriver.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/AutomationWebDriver.pdb
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationWebDriver/obj/Debug/net6.0/ref/AutomationWebDriver.dll

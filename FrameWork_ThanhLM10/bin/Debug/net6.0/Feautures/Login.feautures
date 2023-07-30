@@ -1,0 +1,8 @@
+﻿Feature: Chức năng Đăng nhập
+
+Scenario: Xác minh Đăng nhập thành công
+  Given Tôi đang ở trang đăng nhập
+  When Tôi nhập tên người dùng và mật khẩu
+  Then Tôi nên đăng nhập thành công
+
+

@@ -1,0 +1,72 @@
+{
+  "uuid": "63e20642-f61b-4560-869b-956971f69347-tr-0-1005",
+  "historyId": "FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyLoginSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyLogin"
+    }
+  ],
+  "links": [],
+  "name": "VerifyLoginSuccessfully",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.Collections.Generic.KeyNotFoundException : The given key 'Username' was not present in the dictionary.",
+    "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyLogin.cs:line 34"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyLoginSuccessfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.Collections.Generic.KeyNotFoundException : The given key 'Username' was not present in the dictionary.",
+        "trace": "   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)\n   at AutomationCore.Helpers.ExcelHelper.GetCellData(String columnName, Int32 rownum) in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/AutomationCore/Helpers/ExcelHelper.cs:line 114\n   at FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully() in /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/Tests/VerifyLogin.cs:line 34"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Fail Testcase_img_133296712406355530",
+          "source": "66ac54169a44479a8336fa40643d2263-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "3acb28287daf4b63af3df10792f9ef55-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685197633973,
+      "stop": 1685197643978
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685197633973,
+  "stop": 1685197643981
+}

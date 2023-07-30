@@ -1,0 +1,64 @@
+{
+  "uuid": "dde677ef-9a2f-4691-9faa-1a08770a37bf-tr-0-1001",
+  "historyId": "FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully",
+  "fullName": "FrameWork_ThanhLM10.Test.VerifyLogin.VerifyLoginSuccessfully",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "Thanh-Les-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "FrameWork_ThanhLM10.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyLoginSuccessfully"
+    },
+    {
+      "name": "testClass",
+      "value": "VerifyLogin"
+    }
+  ],
+  "links": [],
+  "name": "VerifyLoginSuccessfully",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyLoginSuccessfully"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "VerifyLoginSuccessfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "919d131113df454e972e45a188301c19-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1685326181009,
+      "stop": 1685326198978
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685326181008,
+  "stop": 1685326198982
+}
