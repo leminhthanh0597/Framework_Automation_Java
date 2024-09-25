@@ -44,11 +44,9 @@
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NPOI.OOXML.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NPOI.OpenXml4Net.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NPOI.OpenXmlFormats.dll
-/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NPOI.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NuGet.Frameworks.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/nunit.framework.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NUnit.Allure.dll
-/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/BouncyCastle.Crypto.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/RestSharp.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/WebDriver.Support.dll
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/WebDriver.dll
@@ -157,4 +155,5 @@
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/obj/Debug/net6.0/MockProject_ThanhLM10.pdb
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/obj/Debug/net6.0/MockProject_ThanhLM10.genruntimeconfig.cache
 /Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/obj/Debug/net6.0/ref/MockProject_ThanhLM10.dll
-/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/Feautures/Login.feautures
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/BouncyCastle.Cryptography.dll
+/Users/admin/Downloads/MockProject_ThanhLM10/FrameWork_ThanhLM10/FrameWork_ThanhLM10/bin/Debug/net6.0/NPOI.Core.dll

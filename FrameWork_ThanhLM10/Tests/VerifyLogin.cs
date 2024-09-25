@@ -29,6 +29,8 @@ namespace FrameWork_ThanhLM10.Test
         }
 
         [Test]
+        [Category("smoke")]
+
         public void VerifyLoginSuccessfully()
         {
             // Step 1: Login

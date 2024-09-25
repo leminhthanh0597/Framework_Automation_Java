@@ -54,6 +54,19 @@
           "build/_._": {}
         }
       },
+      "BouncyCastle.Cryptography/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -76,7 +89,7 @@
           }
         }
       },
-      "Enums.NET/4.0.0": {
+      "Enums.NET/4.0.1": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/Enums.NET.dll": {
@@ -131,7 +144,7 @@
           }
         }
       },
-      "Microsoft.CodeCoverage/17.6.2": {
+      "Microsoft.CodeCoverage/17.6.3": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
@@ -179,7 +192,7 @@
           "lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
+      "Microsoft.IO.RecyclableMemoryStream/2.3.2": {
         "type": "package",
         "compile": {
           "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll": {
@@ -192,11 +205,11 @@
           }
         }
       },
-      "Microsoft.NET.Test.Sdk/17.6.2": {
+      "Microsoft.NET.Test.Sdk/17.6.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.CodeCoverage": "17.6.2",
-          "Microsoft.TestPlatform.TestHost": "17.6.2"
+          "Microsoft.CodeCoverage": "17.6.3",
+          "Microsoft.TestPlatform.TestHost": "17.6.3"
         },
         "compile": {
           "lib/netcoreapp3.1/_._": {}
@@ -230,10 +243,10 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.TestPlatform/17.6.2": {
+      "Microsoft.TestPlatform/17.6.3": {
         "type": "package"
       },
-      "Microsoft.TestPlatform.ObjectModel/17.6.2": {
+      "Microsoft.TestPlatform.ObjectModel/17.6.3": {
         "type": "package",
         "dependencies": {
           "NuGet.Frameworks": "6.5.0",
@@ -330,10 +343,10 @@
           }
         }
       },
-      "Microsoft.TestPlatform.TestHost/17.6.2": {
+      "Microsoft.TestPlatform.TestHost/17.6.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.TestPlatform.ObjectModel": "17.6.2",
+          "Microsoft.TestPlatform.ObjectModel": "17.6.3",
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
@@ -542,46 +555,46 @@
           }
         }
       },
-      "NPOI/2.6.0": {
+      "NPOI/2.6.1": {
         "type": "package",
         "dependencies": {
-          "Enums.NET": "4.0.0",
+          "BouncyCastle.Cryptography": "2.2.1",
+          "Enums.NET": "4.0.1",
           "MathNet.Numerics.Signed": "4.15.0",
-          "Microsoft.IO.RecyclableMemoryStream": "2.2.0",
-          "Portable.BouncyCastle": "1.9.0",
+          "Microsoft.IO.RecyclableMemoryStream": "2.3.2",
           "SharpZipLib": "1.3.3",
-          "SixLabors.Fonts": "1.0.0-beta18",
-          "SixLabors.ImageSharp": "2.1.3",
+          "SixLabors.Fonts": "1.0.0-beta19",
+          "SixLabors.ImageSharp": "2.1.4",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "System.Security.Cryptography.Xml": "6.0.1",
           "System.Text.Encoding.CodePages": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/NPOI.OOXML.dll": {
-            "related": ".deps.json;.pdb;.xml"
+          "lib/netstandard2.1/NPOI.Core.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.OpenXml4Net.dll": {
-            "related": ".pdb"
+          "lib/netstandard2.1/NPOI.OOXML.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.OpenXmlFormats.dll": {
-            "related": ".dll.config;.pdb"
+          "lib/netstandard2.1/NPOI.OpenXml4Net.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.dll": {
-            "related": ".OOXML.deps.json;.OOXML.pdb;.OOXML.xml;.OpenXml4Net.pdb;.OpenXmlFormats.dll.config;.OpenXmlFormats.pdb;.pdb;.xml"
+          "lib/netstandard2.1/NPOI.OpenXmlFormats.dll": {
+            "related": ".dll.config;.pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net6.0/NPOI.OOXML.dll": {
-            "related": ".deps.json;.pdb;.xml"
+          "lib/netstandard2.1/NPOI.Core.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.OpenXml4Net.dll": {
-            "related": ".pdb"
+          "lib/netstandard2.1/NPOI.OOXML.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.OpenXmlFormats.dll": {
-            "related": ".dll.config;.pdb"
+          "lib/netstandard2.1/NPOI.OpenXml4Net.dll": {
+            "related": ".pdb;.xml"
           },
-          "lib/net6.0/NPOI.dll": {
-            "related": ".OOXML.deps.json;.OOXML.pdb;.OOXML.xml;.OpenXml4Net.pdb;.OpenXmlFormats.dll.config;.OpenXmlFormats.pdb;.pdb;.xml"
+          "lib/netstandard2.1/NPOI.OpenXmlFormats.dll": {
+            "related": ".dll.config;.pdb;.xml"
           }
         }
       },
@@ -663,19 +676,6 @@
         "type": "package",
         "build": {
           "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
-        }
-      },
-      "Portable.BouncyCastle/1.9.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
-            "related": ".xml"
-          }
         }
       },
       "RestSharp/110.2.0": {
@@ -904,7 +904,7 @@
           }
         }
       },
-      "SixLabors.Fonts/1.0.0-beta18": {
+      "SixLabors.Fonts/1.0.0-beta19": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
@@ -917,7 +917,7 @@
           }
         }
       },
-      "SixLabors.ImageSharp/2.1.3": {
+      "SixLabors.ImageSharp/2.1.4": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "5.0.0",
@@ -2186,7 +2186,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.6.2",
+          "Microsoft.NET.Test.Sdk": "17.6.3",
           "NUnit": "3.13.3",
           "NUnit3TestAdapter": "4.5.0",
           "RestSharp": "110.2.0",
@@ -2205,7 +2205,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "DocumentFormat.OpenXml": "2.20.0",
-          "NPOI": "2.6.0",
+          "NPOI": "2.6.1",
           "NUnit.Allure": "1.2.1.1",
           "Selenium.WebDriver": "4.10.0",
           "System.Configuration.ConfigurationManager": "7.0.0"
@@ -2307,6 +2307,26 @@
         "tools/_._"
       ]
     },
+    "BouncyCastle.Cryptography/2.2.1": {
+      "sha512": "A6Zr52zVqJKt18ZBsTnX0qhG0kwIQftVAjLmszmkiR/trSp8H+xj1gUOzk7XHwaKgyREMSV1v9XaKrBUeIOdvQ==",
+      "type": "package",
+      "path": "bouncycastle.cryptography/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "bouncycastle.cryptography.2.2.1.nupkg.sha512",
+        "bouncycastle.cryptography.nuspec",
+        "lib/net461/BouncyCastle.Cryptography.dll",
+        "lib/net461/BouncyCastle.Cryptography.xml",
+        "lib/net6.0/BouncyCastle.Cryptography.dll",
+        "lib/net6.0/BouncyCastle.Cryptography.xml",
+        "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
+        "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
+        "packageIcon.png"
+      ]
+    },
     "coverlet.collector/6.0.0": {
       "sha512": "tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "type": "package",
@@ -2384,14 +2404,14 @@
         "lib/netstandard2.0/DocumentFormat.OpenXml.xml"
       ]
     },
-    "Enums.NET/4.0.0": {
-      "sha512": "d47SgeuGxKpalKhYoHqFkDPmO9SoE3amSwVNDoUdy4d675/tX7bLyZFHdjfo3Tobth9Y80VnjfasQ/PD4LqUuA==",
+    "Enums.NET/4.0.1": {
+      "sha512": "OUGCd5L8zHZ61GAf436G0gf/H6yrSUkEpV5vm2CbCUuz9Rx7iLFLP5iHSSfmOtqNpuyo4vYte0CvYEmPZXRmRQ==",
       "type": "package",
-      "path": "enums.net/4.0.0",
+      "path": "enums.net/4.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "enums.net.4.0.0.nupkg.sha512",
+        "enums.net.4.0.1.nupkg.sha512",
         "enums.net.nuspec",
         "lib/net45/Enums.NET.dll",
         "lib/net45/Enums.NET.pdb",
@@ -2484,10 +2504,10 @@
         "mathnet.numerics.signed.nuspec"
       ]
     },
-    "Microsoft.CodeCoverage/17.6.2": {
-      "sha512": "t+DjPlq7GIxIkOK/jiTmNeiEMVkfVCynBEZyV+IMg2ro43NugKExng+7a04R1fBLi+d6voxjeDxL2ozdl+XyVg==",
+    "Microsoft.CodeCoverage/17.6.3": {
+      "sha512": "Gorg6F1dOxlI28yHYKhbQ3pOOfHeW6sUfsmwFQFaIV+xttUAZ+l8KarHIfsR+rBAnjY9VH71BXvPXBuObCkXsw==",
       "type": "package",
-      "path": "microsoft.codecoverage/17.6.2",
+      "path": "microsoft.codecoverage/17.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2546,7 +2566,7 @@
         "build/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
         "lib/net462/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
-        "microsoft.codecoverage.17.6.2.nupkg.sha512",
+        "microsoft.codecoverage.17.6.3.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
       ]
     },
@@ -2579,13 +2599,14 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.IO.RecyclableMemoryStream/2.2.0": {
-      "sha512": "uyjY/cqomw1irT4L7lDeg4sJ36MsjHg3wKqpGrBAdzvZaxo85yMF+sAA9RIzTV92fDxuUzjqksMqA0+SNMkMgA==",
+    "Microsoft.IO.RecyclableMemoryStream/2.3.2": {
+      "sha512": "Oh1qXXFdJFcHozvb4H6XYLf2W0meZFuG0A+TfapFPj9z5fd4vxiARGEhAaLj/6XWQaMYIv4SH/9Q6H78Hw0E2Q==",
       "type": "package",
-      "path": "microsoft.io.recyclablememorystream/2.2.0",
+      "path": "microsoft.io.recyclablememorystream/2.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "lib/net462/Microsoft.IO.RecyclableMemoryStream.dll",
         "lib/net462/Microsoft.IO.RecyclableMemoryStream.xml",
         "lib/net5.0/Microsoft.IO.RecyclableMemoryStream.dll",
@@ -2596,14 +2617,14 @@
         "lib/netstandard2.0/Microsoft.IO.RecyclableMemoryStream.xml",
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.dll",
         "lib/netstandard2.1/Microsoft.IO.RecyclableMemoryStream.xml",
-        "microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
+        "microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
         "microsoft.io.recyclablememorystream.nuspec"
       ]
     },
-    "Microsoft.NET.Test.Sdk/17.6.2": {
-      "sha512": "+WFxuoFVBG0aewD9Psw+1I90kaRToQgMIzK20xNVRO4QRWR9Bou3qGefrZvMZ/xTC+6bAmZppFbpPbiHDzrPyg==",
+    "Microsoft.NET.Test.Sdk/17.6.3": {
+      "sha512": "MglaNTl646dC2xpHKotSk1xscmHO5uV3x3NK057IUA9BM3Wgl16WMEb9ptGczk518JfLd1+Th5OAYwnoWgHQQQ==",
       "type": "package",
-      "path": "microsoft.net.test.sdk/17.6.2",
+      "path": "microsoft.net.test.sdk/17.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2619,7 +2640,7 @@
         "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
         "lib/net462/_._",
         "lib/netcoreapp3.1/_._",
-        "microsoft.net.test.sdk.17.6.2.nupkg.sha512",
+        "microsoft.net.test.sdk.17.6.3.nupkg.sha512",
         "microsoft.net.test.sdk.nuspec"
       ]
     },
@@ -2653,10 +2674,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.TestPlatform/17.6.2": {
-      "sha512": "B52233J36jQ00hrXlVfdzFEukY57oz9Y+yg8/34g7y6JUZP5zPrPwlfo6NhltCIDYbXV1uLWI9l7CHfk608SQw==",
+    "Microsoft.TestPlatform/17.6.3": {
+      "sha512": "/RYuLwu1KxYcdxSqvk5DwCAQdzqeYeJ/9H1gmFk/dLPj5LACnjZzkZ1GEKp/JK1JI4mq9TDGBRLAZc9djzEy2Q==",
       "type": "package",
-      "path": "microsoft.testplatform/17.6.2",
+      "path": "microsoft.testplatform/17.6.3",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2664,7 +2685,7 @@
         "Icon.png",
         "LICENSE_VS.txt",
         "ThirdPartyNotices.txt",
-        "microsoft.testplatform.17.6.2.nupkg.sha512",
+        "microsoft.testplatform.17.6.3.nupkg.sha512",
         "microsoft.testplatform.nuspec",
         "tools/net462/Common7/IDE/CommonExtensions/Microsoft/IntelliTrace/1033/Microsoft.IntelliTrace.Profilerui.dll",
         "tools/net462/Common7/IDE/CommonExtensions/Microsoft/IntelliTrace/IntelliTrace.exe",
@@ -3269,10 +3290,10 @@
         "tools/net462/Team Tools/Dynamic Code Coverage Tools/msdia140.dll"
       ]
     },
-    "Microsoft.TestPlatform.ObjectModel/17.6.2": {
-      "sha512": "I3S/oELDAe/ckFltBnPb0PV+gADbpc8n0yGTtYfTd7q1hd0cAZKn/FrYoegA/rGws8fEFyJD/2PB6uq+nIjWsg==",
+    "Microsoft.TestPlatform.ObjectModel/17.6.3": {
+      "sha512": "gSqtX3RvcFisaLPs6sKXdZkSwUix83NQ9nOU/w6pYrHTl+d8GsVHSL9rvDNxMgoV5BNOdyU7zK7JOfbSaVMDWQ==",
       "type": "package",
-      "path": "microsoft.testplatform.objectmodel/17.6.2",
+      "path": "microsoft.testplatform.objectmodel/17.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3365,14 +3386,14 @@
         "lib/netstandard2.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.TestPlatform.CoreUtilities.resources.dll",
         "lib/netstandard2.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll",
-        "microsoft.testplatform.objectmodel.17.6.2.nupkg.sha512",
+        "microsoft.testplatform.objectmodel.17.6.3.nupkg.sha512",
         "microsoft.testplatform.objectmodel.nuspec"
       ]
     },
-    "Microsoft.TestPlatform.TestHost/17.6.2": {
-      "sha512": "WszrF1CoG+Y2bA4WJFxlaPADQCWUuNP6TCxVRuScmP6DQsNvDDuOO9XiUxCA+wPmNOSyWVh9EGrPu7JoUpf2gA==",
+    "Microsoft.TestPlatform.TestHost/17.6.3": {
+      "sha512": "lrgRXKFfIZSPlhuoQGLtciO/osL+4oADYEYb0d5or7n7YyJATIWespq3lRgz2IQpRh6N7cm0DnCOWeZiCRGzxA==",
       "type": "package",
-      "path": "microsoft.testplatform.testhost/17.6.2",
+      "path": "microsoft.testplatform.testhost/17.6.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3435,7 +3456,7 @@
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll",
         "lib/netcoreapp3.1/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll",
-        "microsoft.testplatform.testhost.17.6.2.nupkg.sha512",
+        "microsoft.testplatform.testhost.17.6.3.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
       ]
     },
@@ -3641,68 +3662,45 @@
         "packageIcon.png"
       ]
     },
-    "NPOI/2.6.0": {
-      "sha512": "Pwjo65CUH3MiRnBEbVo8ff31ZrDGdGyyFJyAEncmbTQ0/gYgDkBUnGKm20aLpdwCpPNLzvapZm8v5tx4S6qAWg==",
+    "NPOI/2.6.1": {
+      "sha512": "DiqEeV7mXv8qQaoqKkJ6nrP11+vOZ+fQI/zi2nvl9qaraiZxlYqWqn7MMXaoAstRM+VnOFYmm0JzlP6FJ9onMg==",
       "type": "package",
-      "path": "npoi/2.6.0",
+      "path": "npoi/2.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "Read Me.txt",
-        "lib/net472/NPOI.OOXML.XML",
-        "lib/net472/NPOI.OOXML.dll",
-        "lib/net472/NPOI.OOXML.pdb",
-        "lib/net472/NPOI.OpenXml4Net.XML",
-        "lib/net472/NPOI.OpenXml4Net.dll",
-        "lib/net472/NPOI.OpenXml4Net.pdb",
-        "lib/net472/NPOI.OpenXmlFormats.dll",
-        "lib/net472/NPOI.OpenXmlFormats.dll.config",
-        "lib/net472/NPOI.OpenXmlFormats.pdb",
-        "lib/net472/NPOI.XML",
-        "lib/net472/NPOI.dll",
-        "lib/net472/NPOI.pdb",
-        "lib/net6.0/NPOI.OOXML.deps.json",
-        "lib/net6.0/NPOI.OOXML.dll",
-        "lib/net6.0/NPOI.OOXML.pdb",
-        "lib/net6.0/NPOI.OOXML.xml",
-        "lib/net6.0/NPOI.OpenXml4Net.dll",
-        "lib/net6.0/NPOI.OpenXml4Net.pdb",
-        "lib/net6.0/NPOI.OpenXmlFormats.dll",
-        "lib/net6.0/NPOI.OpenXmlFormats.dll.config",
-        "lib/net6.0/NPOI.OpenXmlFormats.pdb",
-        "lib/net6.0/NPOI.dll",
-        "lib/net6.0/NPOI.pdb",
-        "lib/net6.0/NPOI.xml",
-        "lib/netstandard2.0/NPOI.OOXML.deps.json",
+        "lib/netstandard2.0/NPOI.Core.dll",
+        "lib/netstandard2.0/NPOI.Core.pdb",
+        "lib/netstandard2.0/NPOI.Core.xml",
         "lib/netstandard2.0/NPOI.OOXML.dll",
         "lib/netstandard2.0/NPOI.OOXML.pdb",
         "lib/netstandard2.0/NPOI.OOXML.xml",
         "lib/netstandard2.0/NPOI.OpenXml4Net.dll",
         "lib/netstandard2.0/NPOI.OpenXml4Net.pdb",
+        "lib/netstandard2.0/NPOI.OpenXml4Net.xml",
         "lib/netstandard2.0/NPOI.OpenXmlFormats.dll",
         "lib/netstandard2.0/NPOI.OpenXmlFormats.dll.config",
         "lib/netstandard2.0/NPOI.OpenXmlFormats.pdb",
-        "lib/netstandard2.0/NPOI.dll",
-        "lib/netstandard2.0/NPOI.pdb",
-        "lib/netstandard2.0/NPOI.xml",
-        "lib/netstandard2.1/NPOI.OOXML.deps.json",
+        "lib/netstandard2.0/NPOI.OpenXmlFormats.xml",
+        "lib/netstandard2.1/NPOI.Core.dll",
+        "lib/netstandard2.1/NPOI.Core.pdb",
+        "lib/netstandard2.1/NPOI.Core.xml",
         "lib/netstandard2.1/NPOI.OOXML.dll",
         "lib/netstandard2.1/NPOI.OOXML.pdb",
         "lib/netstandard2.1/NPOI.OOXML.xml",
         "lib/netstandard2.1/NPOI.OpenXml4Net.dll",
         "lib/netstandard2.1/NPOI.OpenXml4Net.pdb",
+        "lib/netstandard2.1/NPOI.OpenXml4Net.xml",
         "lib/netstandard2.1/NPOI.OpenXmlFormats.dll",
         "lib/netstandard2.1/NPOI.OpenXmlFormats.dll.config",
         "lib/netstandard2.1/NPOI.OpenXmlFormats.pdb",
-        "lib/netstandard2.1/NPOI.dll",
-        "lib/netstandard2.1/NPOI.pdb",
-        "lib/netstandard2.1/NPOI.xml",
+        "lib/netstandard2.1/NPOI.OpenXmlFormats.xml",
         "logo/120_120.jpg",
         "logo/240_240.png",
         "logo/32_32.jpg",
         "logo/60_60.jpg",
-        "npoi.2.6.0.nupkg.sha512",
+        "npoi.2.6.1.nupkg.sha512",
         "npoi.nuspec"
       ]
     },
@@ -3975,21 +3973,6 @@
         "nunit3testadapter.4.5.0.nupkg.sha512",
         "nunit3testadapter.nuspec",
         "nunit_256.png"
-      ]
-    },
-    "Portable.BouncyCastle/1.9.0": {
-      "sha512": "eZZBCABzVOek+id9Xy04HhmgykF0wZg9wpByzrWN7q8qEI0Qen9b7tfd7w8VA3dOeesumMG7C5ZPy0jk7PSRHw==",
-      "type": "package",
-      "path": "portable.bouncycastle/1.9.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/BouncyCastle.Crypto.dll",
-        "lib/net40/BouncyCastle.Crypto.xml",
-        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
-        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
-        "portable.bouncycastle.1.9.0.nupkg.sha512",
-        "portable.bouncycastle.nuspec"
       ]
     },
     "RestSharp/110.2.0": {
@@ -4301,10 +4284,10 @@
         "sharpziplib.nuspec"
       ]
     },
-    "SixLabors.Fonts/1.0.0-beta18": {
-      "sha512": "evykNmy/kEE9EAEKgZm3MNUYXuMHFfmcLUNPw7Ho5q7OI96GFkkIxBm+QaKOTPBKw+L0AjKOs+ArVg8P40Ac9g==",
+    "SixLabors.Fonts/1.0.0-beta19": {
+      "sha512": "ECJoayRT54VkJNoKBwZZllGvBIvxmnUFXsUCqHU8uAjAFrcdtxNpQ5Auyzw3d4+B+Q3KivKIrd7uO0qiNx/glg==",
       "type": "package",
-      "path": "sixlabors.fonts/1.0.0-beta18",
+      "path": "sixlabors.fonts/1.0.0-beta19",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4314,15 +4297,15 @@
         "lib/netstandard2.0/SixLabors.Fonts.xml",
         "lib/netstandard2.1/SixLabors.Fonts.dll",
         "lib/netstandard2.1/SixLabors.Fonts.xml",
-        "sixlabors.fonts.1.0.0-beta18.nupkg.sha512",
+        "sixlabors.fonts.1.0.0-beta19.nupkg.sha512",
         "sixlabors.fonts.128.png",
         "sixlabors.fonts.nuspec"
       ]
     },
-    "SixLabors.ImageSharp/2.1.3": {
-      "sha512": "8yonNRWX3vUE9k29ta0Hbfa0AEc0hbDjSH/nZ3vOTJEXmY6hLnGsjDKoz96Z+AgOsrdkAu6PdL/Ebaf70aitzw==",
+    "SixLabors.ImageSharp/2.1.4": {
+      "sha512": "K6F39YCm/MaOYT0iw9lMa8tBcz2eF8JaNMneo0EnRrml6k+8EQNSKXqb8yJTq2HHkWLlRHZl6UKMn02YmR/G3g==",
       "type": "package",
-      "path": "sixlabors.imagesharp/2.1.3",
+      "path": "sixlabors.imagesharp/2.1.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4337,7 +4320,7 @@
         "lib/netstandard2.1/SixLabors.ImageSharp.dll",
         "lib/netstandard2.1/SixLabors.ImageSharp.xml",
         "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.2.1.3.nupkg.sha512",
+        "sixlabors.imagesharp.2.1.4.nupkg.sha512",
         "sixlabors.imagesharp.nuspec"
       ]
     },
@@ -7563,8 +7546,8 @@
       "AutomationWebDriver >= 1.0.0",
       "FluentAssertions >= 6.11.0",
       "Gherkin >= 26.0.3",
-      "Microsoft.NET.Test.Sdk >= 17.6.2",
-      "Microsoft.TestPlatform >= 17.6.2",
+      "Microsoft.NET.Test.Sdk >= 17.6.3",
+      "Microsoft.TestPlatform >= 17.6.3",
       "NUnit >= 3.13.3",
       "NUnit.Allure >= 1.2.1.1",
       "NUnit.Analyzers >= 3.6.1",
@@ -7635,11 +7618,11 @@
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "[17.6.2, )"
+            "version": "[17.6.3, )"
           },
           "Microsoft.TestPlatform": {
             "target": "Package",
-            "version": "[17.6.2, )"
+            "version": "[17.6.3, )"
           },
           "NUnit": {
             "target": "Package",
@@ -7706,7 +7689,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }

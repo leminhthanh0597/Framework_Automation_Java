@@ -44,7 +44,7 @@
             },
             "NPOI": {
               "target": "Package",
-              "version": "[2.6.0, )"
+              "version": "[2.6.1, )"
             },
             "NUnit.Allure": {
               "target": "Package",
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }
